@@ -1,5 +1,13 @@
 # [JS SDK](https://js.letjson.com/)
 
+# Examples
+
+https://letjson.github.io/js/letjson.json
+
+https://letjson.github.io/js/letjson.txt
+
+https://letjson.github.io/js/letjson.js
+
 JS SDK
 
 
