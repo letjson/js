@@ -1,4 +1,6 @@
 
+//jlogs - > jdebugs;
+
 /**
  *
  * @param url

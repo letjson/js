@@ -2,11 +2,11 @@
 
 # Examples
 
-https://letjson.github.io/js/letjson.json
+https://js.letjson.com/letjson.json
 
-https://letjson.github.io/js/letjson.txt
+https://letjson.com/letjson.txt
 
-https://letjson.github.io/js/letjson.js
+https://letjson.com/letjson.js
 
 JS SDK
 
