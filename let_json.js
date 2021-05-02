@@ -6,7 +6,7 @@
  * @param error
  * @returns {html|boolean}
  */
-function letjson(url, success, error) {
+function let_json(url, success, error) {
     var f = 'loadJson';
 
 

@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^$ /index.js [L]
+RewriteRule ^$ /let_json.js [L]
