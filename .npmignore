@@ -12,7 +12,7 @@ test.ts
 Makefile*
 manifest
 README.in
-letquery.json
+letjson.json
 SpecRunner.html
 __tests__
 reports

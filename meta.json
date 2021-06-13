@@ -1,6 +1,6 @@
 {
-  "name": "letjson/php",
-  "version": "3.1.7",
+  "name": "letjson/js",
+  "version": "1.0.1",
   "description": "letJson() function & LetJson class are downloading *.json files",
   "type": "library",
   "authors": [

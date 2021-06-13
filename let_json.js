@@ -174,3 +174,6 @@ if (typeof err !== 'function') err = function () {
     console.error(str);
     return str;
 }
+
+
+module.exports = let_json;
