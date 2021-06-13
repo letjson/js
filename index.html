@@ -7,14 +7,15 @@
     <title>TEST js.loadfunc.com</title>
 
 
-    <script src="//js.letjson.com/let_json.js?3">
-        // Jloads is loading any media and content dynamically
-    </script>
+<!--    <script src="//js.letjson.com/let_json.js?3"></script> -->
+    <script src="let_json.js?4"></script>
+
     <script>
 
-        let_json('https://js-example.letjson.com/letjson.json?3',function (data){
-            console.log(data) // list data
-        })
+        // let_json('//js-example.letjson.com/letjson.json?3',function (data){
+        let_json('//js-example.letjson.com/letjson.json?6',function (data, url){
+            console.log(data, url) // list data
+        });
 
 
 

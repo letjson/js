@@ -35,7 +35,7 @@ if (typeof jlogs !== 'function') jlogs = function () {
  * @returns {html|boolean}
  */
 function let_json(url, success, error) {
-    var f = 'loadJson';
+    var f = 'let_json';
 
 
     if (typeof success !== 'function') {
@@ -59,6 +59,8 @@ function let_json(url, success, error) {
         // xhrObj.setRequestHeader("Content-Type","multipart/form-data; boundary=something");
         xhrObj.onreadystatechange = function () {
 
+            // console.log(this);
+            // return;
             if (this.readyState == 4) {
                 // document.onload =
                 loadJsonByStatus(this.status, this.responseText, url, success, error);
@@ -73,9 +75,10 @@ function let_json(url, success, error) {
 
         xhrObj.send();
         /* Exit the function: */
-        return success(this);
+        return success(xhrObj);
     }
-    return false;
+
+    return error(xhrObj);
 }
 
 // xhr.js
@@ -116,11 +119,11 @@ function loadJsonByStatus(status, responseText, url, success, error) {
     var f = 'loadJsonByStatus';
 
     if (status == 200) {
-        jlogs(f, ' loadJson loaded HTML: ', responseText);
+        // jlogs(f, ' loadJson loaded HTML: ', responseText);
         return success(JSON.parse(responseText), url);
     }
     if (status == 404) {
-        getTarget(target).innerHTML = "loadJson Page not found.";
+        // getTarget(target).innerHTML = "loadJson Page not found.";
         return error(this, status);
     }
     return error(responseText);

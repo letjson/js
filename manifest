@@ -1,0 +1,23 @@
+{
+    "name": "letjson",
+    "title": "letjson",
+    "description": "letjson() function & letjson class are downloading data or files by http request",
+    "version": "{{VER}}",
+    "keywords": [
+        "letjson", "json", "get", "request", "http"
+    ],
+    "author": {
+        "name": "Tom Sapletta",
+        "email": "info@softreck.dev",
+        "url": "http://softreck.dev"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "homepage": "https://nodejs.letjson.com/",
+    "bugs": "https://github.com/letjson/nodejs/issues",
+    "demo": "http://demo.letjson.com/",
+    "docs": "http://docs.letjson.com/",
+    "download": "https://github.com/letjson/nodejs/releases",
+}
